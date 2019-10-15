@@ -1,0 +1,29 @@
+<h3> Component Home (Component detail-user's brother) </h3>
+<h4> Here we changes Service User object </h4>
+
+<form>
+
+    Name <input name="name" 
+           type="text" 
+           [(ngModel)]="user.name"
+           (change)="changeServiceName()"/>
+
+    <br/>
+    <br/>
+
+    Surname <input name="surname" 
+           type="text" 
+           [(ngModel)]="user.surname"
+           (change)="changeServiceSurname()"/>
+
+</form>
+
+<br/>
+<br/>
+Detalle User
+<br/>
+<br/>
+Name: <b>{{ user.name }}</b>
+<br/>
+<br/>
+Surname: <b>{{ user.surname }}</b>
