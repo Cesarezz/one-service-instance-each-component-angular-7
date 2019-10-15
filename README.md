@@ -1,9 +1,10 @@
-### Example basic and didactic Angular 7's injection service root.
+### Example basic and didactic Angular 7 One service instance in each component.
 
 ### Installation
 
 ```sh
-$ cd injector-root-angular-7-example
+$ git clone https://github.com/Cesarezz/one-service-instance-each-component-angular-7
+$ cd one-service-instance-each-component-angular-7
 $ npm install
 $ ng serve -o
 ```
@@ -19,3 +20,5 @@ $ ng serve -o
 - Two components brothers: 
   - Home Component (edit values service)
   - Detail-User Component (show values service)
+
+- Each component with one service instance.
